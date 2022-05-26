@@ -3,11 +3,13 @@
   <body>
     <h1 class="title">Discount Calculator</h1>
     <div class="grid-container">
-        <p class= "">Original Price $: <input maxlength="2" type="number" id ="principle" min="0" value =""></input></p>
-        <p class= "">Discount: <input maxlength="3" type="number" id ="principle" min="0" max ="100" value =""></input>%</p>
+        <h3 class= "">Original Price $: <input maxlength="2" type="number" id ="original_price" min="0" value =""></input></h3>
+        <h3 class= "">Discount: <input maxlength="3" type="number" id ="" min="0" max ="100" value ="discount_percentage"></input>%</h3>
 
-        <p class= "">New Price $: </p>
-        <p class= "">You Save $: </p>
+        <button type="button" class="btn btn-primary btn-lg" onclick="discount_calculation()">Calculate</button>
+
+        <h3 >New Price: $ <p id = new_price> </p> </h3>
+        <h3 class= "">You Save: $ </h3>
        
     </div>
     <!-- <div class="grid-container"></div> -->
